@@ -1,0 +1,25 @@
+.footer__links {
+    margin: 0;
+    padding: 0;
+list-style-type:none;
+font-family: "Inter", "Arial", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color: #FFFFFF;
+display: flex;
+flex-direction:row;
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 24px;
+        line-height: 24px;
+        min-height:310px;
+    }
+}
